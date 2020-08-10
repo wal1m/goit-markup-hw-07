@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>portfolio</title>
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <!-- шапка сайта -->
+        <header class="header portfolio">
+            <div class="container">
+                <nav class="navigation">
+                    <a class="logo-link link" href="./index.html">Web <span class="studio-black">Studio</span></a>
+                    <ul class="novigation-list list">
+                        <li class="novigation-list-item"><a class="novigation-list-link studio link"
+                                href="./index.html">Студия</a></li>
+                        <li class="novigation-list-item"><a class="novigation-list-link portfolio active link"
+                                href="./portfolio.html">Портфолио</a></li>
+                        <li class="novigation-list-item"><a class="novigation-list-link contacts link" href="">Контакты</a></li>
+                    </ul>
+                </nav>
+        
+                <address class="header-address">
+                    <ul class="header-address-list list">
+                        <li class="header-address-list-item"><a class="header-address-list-link link"
+                                href="mailto:info@devstudio.com">
+                                <svg class="header-address-list-link-svg">
+                                    <use href="./images/sprite.svg#mail">
+                                    </use>
+                                </svg>
+                                info@devstudio.com</a></li>
+                        <li class="header-address-list-item"><a class="header-address-list-link link" href="tel:+380961111111">
+                                <svg class="header-address-list-link-svg tel">
+                                    <use href="./images/sprite.svg#tel">
+                                    </use>
+                                </svg>
+                                +38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+        
+        </header>
+        <main>
+                    <!-- фильтр -->
+                    <section class="filter">
+                        <div class="container">
+                            <h1 hidden>Наши работы</h1>
+                            <ul class="filter-list list">
+                                <li class="filter-list-item"><button class="filter-btn">
+                                        Все
+                                    </button></li>
+                                <li class="filter-list-item"><button class="filter-btn">
+                                        Веб-сайты
+                                    </button></li>
+                                <li class="filter-list-item"><button class="filter-btn">
+                                        Приложения
+                                    </button></li>
+                                <li class="filter-list-item"><button class="filter-btn">
+                                        Дизайн
+                                    </button></li>
+                                <li class="filter-list-item"><button class="filter-btn">
+                                        Маркетинг
+                                    </button></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="section development">
+                        <div class="container">
+                            <ul class="development-list list">
+                                <li class="development-list-item">
+                                    <a class="development-list-link link" href="">
+                                        <div class="development-list-img-block">
+                                            <img class="development-list-img" src="./images/portfolio/project-1.jpg" alt="">
+                                            <div class="overlay">
+                                            <p class="description-text">
+                                                Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
+                                                цифрового
+                                                шпионажа и атак на защищённые сервера конкурентов.
+                                            </p>
+                                            </div>
+                                        </div>
+                                        <div class="project-block">
+                                            <h2 class="project">Технокряк</h2>
+                                            <p class="description">
+                                                Веб-сайт
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="development-list-item">
+                                    <a class="development-list-link link" href="">
+                                        <div class="development-list-img-block">
+                                            <img class="development-list-img" src="./images/portfolio/project-2.jpg" alt="">
+                                            <div class="overlay">
+                                                <p class="description-text">
+                                                    Основные изменения в новой версии программы: исправлены старые баги, добавлены новые.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="project-block">
+                                            <h2 class="project">Постер New Orlean vs Golden Star</h2>
+                                            <p class="description">
+                                                Дизайн
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="development-list-item">
+                                    <a class="development-list-link link" href="">
+                                        <div class="development-list-img-block">
+                                            <img class="development-list-img" src="./images/portfolio/project-3.jpg" alt="">
+                                            <div class="overlay">
+                                                <p class="description-text">
+                                                    Существует два вида языков программирования: одни – все ругают, другими не пользуются.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="project-block">
+                                            <h2 class="project">Ресторан Seafood</h2>
+                                            <p class="description">
+                                                Приложение
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="development-list-item">
+                                    <a class="development-list-link link" href="">
+                                        <div class="development-list-img-block">
+                                            <img class="development-list-img" src="./images/portfolio/project-4.jpg" alt="">
+                                            <div class="overlay">
+                                                <p class="description-text">
+                                                    Особенности разработки любого программного продукта: катастрофически не хватает времени на то, чтобы избавиться от
+                                                    багов, зато времени на то, чтобы сделать их еще больше, всегда хватает.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="project-block">
+                                            <h2 class="project">Проект Prime</h2>
+                                            <p class="description">
+                                                Маркетинг
+                                            </p>
+                                        </div>
+                                        
+                                    </a>
+                                </li>
+                                <li class="development-list-item">
+                                    <a class="development-list-link link" href="">
+                                        <div class="development-list-img-block">
+                                            <img class="development-list-img" src="./images/portfolio/project-5.jpg" alt="">
+                                            <div class="overlay">
+                                                <p class="description-text">
+                                                    Программирование состоит на 10% из строгой науки, на 20% из смекалки и вдохновения, и на 70% из попыток совместить
+                                                    первое со вторым.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="project-block">
+                                            <h2 class="project">Проект Boxes</h2>
+                                            <p class="description">
+                                                Приложение
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="development-list-item">
+                                    <a class="development-list-link link" href="">
+                                        <div class="development-list-img-block">
+                                            <img class="development-list-img" src="./images/portfolio/project-6.jpg" alt="">
+                                            <div class="overlay">
+                                                <p class="description-text">
+                                                    Если вы посмотрите на код, который вы писали более полугода назад, то, скорей всего, вам покажется, что автор – кто-то
+                                                    другой.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="project-block">
+                                            <h2 class="project">Inspiration has no Borders</h2>
+                                            <p class="description">
+                                                Веб-сайт
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="development-list-item">
+                                    <a class="development-list-link link" href="">
+                                        <div class="development-list-img-block">
+                                            <img class="development-list-img" src="./images/portfolio/project-7.jpg" alt="">
+                                            <div class="overlay">
+                                                <p class="description-text">
+                                                    Никогда не пишите на пределе своих талантов! Помните: отладка – всегда в два раза сложнее написания кода. И если вы
+                                                    напишете настолько умно, насколько способны, отладить его вы уже не сумеете.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="project-block">
+                                            <h2 class="project">Издание Limited Edition</h2>
+                                            <p class="description">
+                                                Дизайн
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="development-list-item">
+                                    <a class="development-list-link link" href="">
+                                        <div class="development-list-img-block">
+                                            <img class="development-list-img" src="./images/portfolio/project-8.jpg" alt="">
+                                            <div class="overlay">
+                                                <p class="description-text">
+                                                    Задумайтесь, какое количество психических сил затрачено программистами на попытки понять фундаментальное различие между
+                                                    программой и алгоритмом!
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="project-block">
+                                            <h2 class="project">Проект LAB</h2>
+                                            <p class="description">
+                                                Маркетинг
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="development-list-item">
+                                    <a class="development-list-link link" href="">
+                                        <div class="development-list-img-block">
+                                            <img class="development-list-img" src="./images/portfolio/project-9.jpg" alt="">
+                                            <div class="overlay">
+                                                <p class="description-text">
+                                                    "Приложение "Дверь" совершило недопустимую операцию и будет закрыто. Вы не можете открыть дверь, потому, что произошла
+                                                    ошибка входа-выхода."
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="project-block">
+                                            <h2 class="project">Growing Business</h2>
+                                            <p class="description">
+                                                Приложение
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+        </main>
+                    <!-- Подвал -->
+            <footer class="footer">
+                <div class="footer-container container">
+                    <div class="footer-block-address">
+                        <a class="logo-link link" href="./index.html">Web <span class="studio-white">Studio</span></a>
+                        <ul class="list">
+                            <li>
+                                <address class="footer-address address">
+                                    г. Киев, пр-т Леси Украинки, 26
+                                </address>
+                            </li>
+                            <li>
+                                <address class="address">
+                                    <a class="footer-address-list-link link" href="mailto:info@example.com">info@example.com</a>
+                                </address>
+                            </li>
+                            <li>
+                                <address class="address">
+                                    <a class="footer-address-list-link link" href="tel:+380961111111">+38 099 111 11 11</a>
+                                </address>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-block-join">
+                        <b class="footer-join">присоединяйтесь</b>
+                        <ul class="footer-social-list-link">
+                            <li class="social-list-item">
+                                <a class="social-list-item-link link" href="" aria-label="иконка инстаграма">
+                                    <svg class="social-list-item-svg">
+                                        <use href="./images/sprite.svg#instagram">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a class="social-list-item-link link" href="" aria-label="иконка твитера">
+                                    <svg class="social-list-item-svg">
+                                        <use href="./images/sprite.svg#twitter">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a class="social-list-item-link link" href="" aria-label="иконка фейсбука">
+                                    <svg class="social-list-item-svg">
+                                        <use href="./images/sprite.svg#facebook">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a class="social-list-item-link link" href="" aria-label="иконка ликедина">
+                                    <svg class="social-list-item-svg">
+                                        <use href="./images/sprite.svg#linkedin">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Форма -->
+                    <div class="footer-block-forma">
+                        <b class="footer-forma">Подпишитесь на рассылку
+                        </b>
+            
+                        <form action="#" class="footer-forma-btn">
+                            <label for="email"></label>
+                            <input type="email" name="email" id="email" class="form-email" placeholder="E-mail" />
+                            <button class="footer-btn btn"> Подписаться
+                                <svg class="footer-send">
+                                    <use href="./images/sprite.svg#icon-send">
+                                    </use>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </footer>
+    </body>
+</html>
