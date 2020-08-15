@@ -1,0 +1,31 @@
+/* regular customers */
+.clients-title {
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.clients-list-item-link {
+    display: flex;
+    width: 170px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: color 250ms $timing-function,
+    border-color 250ms $timing-function;
+    &:hover,
+    :focus {
+color: $accent-color;
+border-color: $accent-color;
+}
+}
+.clients-list-item-svg {
+    fill: currentColor;
+}
